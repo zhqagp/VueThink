@@ -37,7 +37,7 @@
           ],
           new_pwd: [
             { required: true, message: '请输入新密码', trigger: 'blur' },
-            { min: 6, max: 12, message: '长度在 6 到 12 个字符', trigger: 'blur' }
+            { min: 4, max: 12, message: '长度在 4 到 12 个字符', trigger: 'blur' }
           ]
         }
       }
